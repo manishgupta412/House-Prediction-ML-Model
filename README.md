@@ -231,6 +231,4 @@ predict_house_price(
 
 ## ⭐ If You Like This Project
 
-Give it a star on GitHub!
-
-````
+Give it a star on GitHub
