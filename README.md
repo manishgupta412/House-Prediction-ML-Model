@@ -84,8 +84,11 @@ Used:
 
 Performed using:
 
+```
+
 GridSearchCV
 
+```
 
 Optimized HistGradientBoosting parameters including:
 
@@ -127,14 +130,20 @@ Optimized HistGradientBoosting parameters including:
 
 Clone repository:
 
+```
+
 git clone <your-repo-link>
 cd <repo-name>
 
+```
 
 Install dependencies:
 
+```
+
 pip install numpy pandas matplotlib seaborn scikit-learn
 
+```
 
 ---
 
@@ -142,8 +151,11 @@ pip install numpy pandas matplotlib seaborn scikit-learn
 
 Open Jupyter Notebook:
 
+```
+
 jupyter notebook house-prediction-model.ipynb
 
+````
 
 Run all cells to:
 
@@ -159,7 +171,7 @@ The project provides a function for predicting house price using trained model.
 
 ### Example Usage
 
-``python
+```python
 predict_house_price(
     model=hgb_best,
     longitude=-122.230,
@@ -172,49 +184,53 @@ predict_house_price(
     median_income=8.3252,
     ocean_proximity="NEAR BAY"
 )
+````
 
+---
 
-📈 Visualization Included
-Feature distributions
+## 📈 Visualization Included
 
-Correlation heatmap
+* Feature distributions
+* Correlation heatmap
+* Residual plots
+* Target distribution
+* Outlier analysis
 
-Residual plots
+---
 
-Target distribution
+## 📁 Project Structure
 
-Outlier analysis
-
-📁 Project Structure
+```
 ├── house-prediction-model.ipynb
 ├── housing.csv
 ├── README.md
-💡 Key Learnings
-Building reusable ML pipelines
-
-Handling missing data
-
-Model selection & comparison
-
-Hyperparameter optimization
-
-Model evaluation best practices
-
-🚀 Future Improvements
-Deploy model as web application
-
-Add feature engineering
-
-Experiment with deep learning models
-
-Create interactive dashboard
-
-Save model using Pickle or Joblib
-
-
-
-⭐ If You Like This Project
-Give it a star on GitHub!
-
+```
 
 ---
+
+## 💡 Key Learnings
+
+* Building reusable ML pipelines
+* Handling missing data
+* Model selection & comparison
+* Hyperparameter optimization
+* Model evaluation best practices
+
+---
+
+## 🚀 Future Improvements
+
+* Deploy model as web application
+* Add feature engineering
+* Experiment with deep learning models
+* Create interactive dashboard
+* Save model using Pickle or Joblib
+
+---
+
+
+## ⭐ If You Like This Project
+
+Give it a star on GitHub!
+
+````
