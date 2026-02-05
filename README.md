@@ -159,7 +159,7 @@ The project provides a function for predicting house price using trained model.
 
 ### Example Usage
 
-```python
+``python
 predict_house_price(
     model=hgb_best,
     longitude=-122.230,
@@ -172,6 +172,8 @@ predict_house_price(
     median_income=8.3252,
     ocean_proximity="NEAR BAY"
 )
+
+
 📈 Visualization Included
 Feature distributions
 
